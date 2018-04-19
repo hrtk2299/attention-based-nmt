@@ -1,0 +1,14 @@
+# _*_ coding: utf-8 _*_
+* Attention-based neural machine translation
+
+** Requirements
+ - python 3.6.x
+ - chainer 4.x
+
+** Usage
+#+BEGIN_SRC bash
+sh run.sh
+#+END_SRC
+
+** Reference
+*** [[https://arxiv.org/abs/1409.0473][Neural Machine Translation by Jointly Learning to Align and Translate]]
