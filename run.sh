@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-#!/bin/bash
+
+wget https://github.com/odashi/small_parallel_enja/archive/master.zip
+unzip master.zip
 
 python create_wordidmap_file.py small_parallel_enja-master/train.en
 mv id_sentences.txt id_sentences_en.txt
